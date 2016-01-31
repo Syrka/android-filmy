@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Filmy</string>
+    <string name="urlPrefix">https://image.tmdb.org/t/p/w185</string>
+    <string name="apiKey">dfc89b5d4f855c456ea249310fa7e4c3</string>
+</resources>

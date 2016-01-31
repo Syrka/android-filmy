@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sara.androidfilms.MenuActivity"
+    android:orientation="vertical"
+    android:onClick="onClick"
+    android:background="#DCDCDC"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filmy Menu"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now playing"
+        android:id="@+id/btn_nowPlaying"
+        android:onClick="onClick"
+        android:background="#4657B8"
+        android:layout_margin="3dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:id="@+id/btn_popular"
+        android:onClick="onClick"
+        android:layout_margin="3dp"
+        android:background="#4657B8"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top rated"
+        android:id="@+id/btn_topRated"
+        android:onClick="onClick"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#4657B8"
+        android:layout_margin="3dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon"
+        android:id="@+id/btn_comingSoon"
+        android:onClick="onClick"
+        android:background="#4657B8"
+        android:textColor="#FFFFFF"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/btn_search"
+        android:onClick="onClick"
+        android:background="#4657B8"
+        android:textColor="#FFFFFF"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
